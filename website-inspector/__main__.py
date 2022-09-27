@@ -16,12 +16,11 @@ def get_page_requests(url):
     console.log("Waiting to conform the page has loaded.")
     driver.implicitly_wait(10)
 
-    driver.quit()
-
     requested_urls = []
     for request in driver.requests:
         if request.response:
             requested_urls.append(request.url)
+    driver.quit()
 
     return requested_urls
 
