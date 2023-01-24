@@ -1,0 +1,15 @@
+directory: "/"
+    schedule:
+    interval: "daily"
+    assignees:
+    - "sampetherbridge"
+    commit-message:
+    prefix: ':arrow_up:'
+- package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+    interval: "daily"
+    assignees:
+    - "sampetherbridge"
+    commit-message:
+    prefix: ':arrow_up:'
