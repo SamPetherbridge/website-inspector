@@ -1,15 +1,12 @@
-directory: "/"
-    schedule:
-    interval: "daily"
-    assignees:
-    - "sampetherbridge"
-    commit-message:
-    prefix: ':arrow_up:'
-- package-ecosystem: "github-actions"
+version: 2
+updates:
+  - package-ecosystem: "pip"
     directory: "/"
     schedule:
-    interval: "daily"
+      interval: "daily"
+    # Add assignees
     assignees:
-    - "sampetherbridge"
+      - "sampetherbridge"
     commit-message:
-    prefix: ':arrow_up:'
+      # Prefix all commit messages with "npm: "
+      prefix: ":arrow_up:"
