@@ -1,4 +1,4 @@
-click~=8.1.6
+click~=8.1.7
 rich~=13.4.2
 selenium-wire
 
