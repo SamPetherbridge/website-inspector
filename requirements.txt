@@ -5,7 +5,7 @@ selenium-wire
 hpack~=4.1.0
 hyperframe~=6.1.0
 h2~=4.1.0
-h11~=0.14.0
+h11~=0.16.0
 pip~=24.2
 attrs~=25.3.0
 cryptography~=44.0.2
